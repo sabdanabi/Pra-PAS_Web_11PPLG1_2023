@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BooklitsController;
 use App\Http\Controllers\GuardlitsController;
+use App\Http\Controllers\PeminjamanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,3 +29,6 @@ Route::get('/all/guardlist',[GuardlitsController:: class,'index']);
 
 Route::get('/guardlist/detailguard/{id}',[\App\Http\Controllers\GuardlitsController::class,'show']);
 
+Route::get('/all/peminjaman',[PeminjamanController:: class,'index']);
+
+Route::get('/pinjaman/detailpinjaman/{id}',[\App\Http\Controllers\PeminjamanController::class,'show']);
