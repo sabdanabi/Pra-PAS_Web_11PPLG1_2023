@@ -15,6 +15,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/all/guardlist">Guard List</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/all/peminjaman">Pinjaman Buku</a>
+        </li>
       </ul>
     </div>
   </div>
